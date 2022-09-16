@@ -60,11 +60,11 @@ export const config = {
   USERS: [
     {
       // 想要发送的人的名字
-      name: "迷om",
+      name: "可爱女人",
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: "oW6UL67A79Bm_QuboR6TWodcgc1Y",
+      id: "oW6UL64PHTTfnaSb-r2d3Htniuog",
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: "oqrvu2QGGGfVjsbvgN-p2DdetOeqrbM_YFLXQQyoEvw",
+      useTemplateId: "p4lKkgPYsiHfBfvwN3VV7NZFFLNN0n5G0xm31JohkCo",
       // 所在省份
       province: "重庆",
       // 所在城市
@@ -78,11 +78,11 @@ export const config = {
       // 专属节日提醒，如果你在这里填写了节日提醒，就不会执行FESTIVALS的提醒了, 和FESTIVALS的配置方法相同，可以往下查看，我这里就不重复写了
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
-        {"type": "*生日", "name": "老婆", "year": "2000", "date": "09-12"},
-       // {"type": "节日", "name": "结婚纪念日", "year": "2020", "date": "09-03"},
+       // {"type": "*生日", "name": "可爱女人", "year": "2000", "date": "09-12"},
+       // {"type": "节日", "name": "可爱女人", "year": "2020", "date": "09-03"},
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
-     //   {"type": "生日", "name": "老婆", "year": "1996", "date": "09-31"},
-      //  {"type": "节日", "name": "被搭讪纪念日", "year": "2021", "date": "09-01"},
+        {"type": "生日", "name": "可爱女人", "year": "2000", "date": "09-12"},
+      //  {"type": "节日", "name": "可爱女人", "year": "2021", "date": "09-01"},
       ],
       // 专属纪念日/倒数日，如果你在这里填写了纪念日/倒数日，就不会计算CUSTOMIZED_DATE_LIST的日子了, 和CUSTOMIZED_DATE_LIST的配置方法相同，可以往下查看，我这里就不重复写了
       customizedDateList: [
@@ -159,11 +159,11 @@ export const config = {
    */
   FESTIVALS: [
     // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
-    {"type": "*生日", "name": "老婆", "year": "2000", "date": "09-12", isShowAge: true},
-    {"type": "节日", "name": "结婚纪念日", "year": "2020", "date": "09-03"},
+    {"type": "*生日", "name": "可爱女人", "year": "2000", "date": "09-12", isShowAge: true},
+    {"type": "节日", "name": "可爱女人", "year": "2020", "date": "09-03"},
     // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
-    {"type": "生日", "name": "李四", "year": "2000", "date": "09-12", isShowAge: true},
-    {"type": "节日", "name": "被搭讪纪念日", "year": "2021", "date": "09-01"},
+    {"type": "生日", "name": "可爱女人", "year": "2000", "date": "09-12", isShowAge: true},
+    {"type": "节日", "name": "可爱女人", "year": "2021", "date": "09-01"},
     // 你可以不断按格式往下增加
     // ...
   ],
