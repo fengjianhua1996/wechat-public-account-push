@@ -96,8 +96,8 @@ export const config = {
     },
     {
       name: "老婆1",
-      id: "",
-      useTemplateId: "",
+      id: "oW6UL69qzwnuyQ0-9f-yxjdBI0HY	移除",
+      useTemplateId: "	Hdy-o3VpY4_EBTvEdHo2nBn8cCR_iE-QQCKB_vc6sg4",
       province: "",
       city: "",
       horoscopeDate: '',
@@ -105,19 +105,7 @@ export const config = {
       openUrl: "https://wangxinleo.cn",
       festivals: [],
       customizedDateList: []
-    },
-    {
-      name: "老婆2",
-      id: "",
-      useTemplateId: "",
-      province: "",
-      city: "",
-      horoscopeDate: '',
-      horoscopeDateType: '',
-      openUrl: "https://wangxinleo.cn",
-      festivals: [],
-      customizedDateList: []
-    },
+    }
   ],
 
   /**
