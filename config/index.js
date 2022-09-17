@@ -92,19 +92,38 @@ export const config = {
        // {"keyword": "marry_day", date: "2022-09-06"},
         // 退伍日
         //{"keyword": "ex_day", date: "2022-09-10"},
-      ]
+      ],
+      slotList: [
+    // 这样配置的话，就会每次随机选一句话发送
+    {"keyword": "lover_prattle", contents: [
+      "你主要的问题在于读书太少而想得太多",
+      "因为太喜欢你，所以看谁都像是情敌。",
+      "申请成为你爱里的永久居民。",
+      "你很傻，你很笨，可我还是很羡慕你，因为你有我",
+      "遇见你，就好像捡到了100斤的运气",
+    ]},
+  ],
     },
     {
       name: "迷om",
       id: "oW6UL69qzwnuyQ0-9f-yxjdBI0HY",
-      useTemplateId: "	Hdy-o3VpY4_EBTvEdHo2nBn8cCR_iE-QQCKB_vc6sg4",
+      useTemplateId: "p4lKkgPYsiHfBfvwN3VV7NZFFLNN0n5G0xm31JohkCo",
       province: "",
       city: "",
       horoscopeDate: '',
       horoscopeDateType: '',
       openUrl: "https://wangxinleo.cn",
       festivals: [],
-      customizedDateList: []
+      customizedDateList: [],
+      slotList: [
+    // 这样配置的话，就会每次随机选一句话发送
+    {"keyword": "lover_prattle", contents: [
+      "你主要的问题在于读书太少而想得太多",
+      "因为太喜欢你，所以看谁都像是情敌。",
+      "申请成为你爱里的永久居民。",
+      "你很傻，你很笨，可我还是很羡慕你，因为你有我",
+      "遇见你，就好像捡到了100斤的运气",
+    ]},
     }
   ],
 
