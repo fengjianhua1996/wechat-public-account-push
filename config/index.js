@@ -92,7 +92,7 @@ export const config = {
        // {"keyword": "marry_day", date: "2022-09-06"},
         // 退伍日
         //{"keyword": "ex_day", date: "2022-09-10"},
-      ],
+      ]
     },
     {
       name: "迷om",
@@ -104,7 +104,7 @@ export const config = {
       horoscopeDateType: '',
       openUrl: "https://wangxinleo.cn",
       festivals: [],
-      customizedDateList: [],
+      customizedDateList: []
 }
   /**
    * 【推送完成提醒】 相关，主要用来展示发送是否成功/失败的数据
