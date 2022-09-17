@@ -93,16 +93,6 @@ export const config = {
         // 退伍日
         //{"keyword": "ex_day", date: "2022-09-10"},
       ],
-      slotList: [
-    // 这样配置的话，就会每次随机选一句话发送
-    {"keyword": "lover_prattle", contents: [
-      "你主要的问题在于读书太少而想得太多",
-      "因为太喜欢你，所以看谁都像是情敌。",
-      "申请成为你爱里的永久居民。",
-      "你很傻，你很笨，可我还是很羡慕你，因为你有我",
-      "遇见你，就好像捡到了100斤的运气",
-    ],}
-  ]
     },
     {
       name: "迷om",
@@ -114,7 +104,7 @@ export const config = {
       horoscopeDateType: '',
       openUrl: "https://wangxinleo.cn",
       festivals: [],
-      customizedDateList: []
+      customizedDateList: [],
 }
   /**
    * 【推送完成提醒】 相关，主要用来展示发送是否成功/失败的数据
